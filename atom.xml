@@ -6,7 +6,7 @@
   <link href="https://mcdp.link/atom.xml" rel="self"/>
   
   <link href="https://mcdp.link/"/>
-  <updated>2021-05-09T14:59:02.728Z</updated>
+  <updated>2021-05-12T15:05:10.753Z</updated>
   <id>https://mcdp.link/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【从零开始任务管理#2】先尝试记下来吧——使用「Microsoft ToDo」</title>
+    <link href="https://mcdp.link/2021/05/12/%E3%80%90%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86-2%E3%80%91%E5%85%88%E5%B0%9D%E8%AF%95%E8%AE%B0%E4%B8%8B%E6%9D%A5%E5%90%A7%E2%80%94%E2%80%94%E4%BD%BF%E7%94%A8%E3%80%8CMicrosoft%20ToDo%E3%80%8D/"/>
+    <id>https://mcdp.link/2021/05/12/%E3%80%90%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86-2%E3%80%91%E5%85%88%E5%B0%9D%E8%AF%95%E8%AE%B0%E4%B8%8B%E6%9D%A5%E5%90%A7%E2%80%94%E2%80%94%E4%BD%BF%E7%94%A8%E3%80%8CMicrosoft%20ToDo%E3%80%8D/</id>
+    <published>2021-05-12T12:22:29.000Z</published>
+    <updated>2021-05-12T15:05:10.753Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="先试着解放你的大脑"><a href="#先试着解放你的大脑" class="headerlink" title="先试着解放你的大脑"></a>先试着解放你的大脑</h2><p>如果你从来没有用过任务管理软件，我建议你先着手试一下，只有真实地试过以后，你才会对任务管理有确实的认知。</p><p>而本文将简单介绍「Microsoft ToDo」（下称ToDo）及一些小技巧，便于你更快地建立初步认知。</p><h2 id="基础功能"><a href="#基础功能" class="headerlink" title="基础功能"></a>基础功能</h2><p><img src="https://i.loli.net/2021/05/12/hlKnxYDRMzyVL9c.png" class="lazyload" data-srcset="https://i.loli.net/2021/05/12/hlKnxYDRMzyVL9c.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII="></p><ol><li>智能列表：「ToDo」内置的自动化筛选的列表。暂且提一句，笔者认为，自动化是任务管理的精髓所在，在「ToDo」中，你便能初步窥见自动化所带来的便利性，而在本文后半段，将提及笔者是如何利用智能列表提高效率的。</li><li>自定义列表：顾名思义，这是你的自定义区域。大概的逻辑是：建立「列表」以分类，去囊括你的「任务」；当然你也可以使用「组」去嵌套列表。</li><li>任务区域：你可以把「任务」作为最基础的单元，并对其做一些基础的操作。</li></ol><p><img src="https://i.loli.net/2021/05/12/lP81EYMfG9NFArm.png" class="lazyload" data-srcset="https://i.loli.net/2021/05/12/lP81EYMfG9NFArm.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="一个例子"></p><h2 id="使用技巧"><a href="#使用技巧" class="headerlink" title="使用技巧"></a>使用技巧</h2><ol><li>对于「ToDo」，笔者的用法是直接使用列表进行分类，而对于一些杂乱的任务，直接放进「任务」列表中。</li><li>对于每一个具体的任务，笔者会根据实际需求，放入适合的智能列表中。如尚未到截止日期，但决定要做的，笔者会将其添加到「我的一天」中。通常情况下，笔者最经常使用的就是「我的一天」。</li><li>而对于任务的提前规划，笔者通常会查看「已计划日程」，按照时间顺序再一遍筛选如「我的一天」。</li><li>当然，将任务分类后直接在自定义列表查看也是可行的，笔者将其类似理解为「工作区」。</li><li>「ToDo」是可以进行简单的团队协作的，笔者一度将其作为安排学生工作的工具，安排、展示任务，在备注里写下任务要注意的事项。</li><li>在「ToDo」的设置中还有一些实用的小功能，例如当你将其固定在 Windows 的任务栏时，会显示角标，提醒你还有多少任务需要去完成。如果你将其固定在「开始」中，其磁贴会显示部分任务。</li></ol><h2 id="优点与缺点"><a href="#优点与缺点" class="headerlink" title="优点与缺点"></a>优点与缺点</h2><p>笔者认为，「ToDo」最大的优点就是「轻」，你可以在几分钟内上手并摸索出适合你的任务管理方法；同时，「ToDo」是一个多平台的应用，无论是 Windows、Web 还是 Android 与 iOS 端，都有着不错的支持。</p><p>当然，缺点也十分明显，「ToDo」太「轻」了，不能满足用户的深度定制需求；同时，作为微软的应用，其同步速度被人诟病。</p><p>整体而言，「ToDo」作为一款入门的任务管理应用相当不错，但它作为微软的一款产品，用着总让人觉得膈应、不稳定，因此，笔者也就将其作为一款「轻」应用来使用了。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;先试着解放你的大脑&quot;&gt;&lt;a href=&quot;#先试着解放你的大脑&quot; class=&quot;headerlink&quot; title=&quot;先试着解放你的大脑&quot;&gt;&lt;/a&gt;先试着解放你的大脑&lt;/h2&gt;&lt;p&gt;如果你从来没有用过任务管理软件，我建议你先着手试一下，只有真实地试过以后，你才会对任</summary>
+      
+    
+    
+    
+    <category term="生活黑客" scheme="https://mcdp.link/categories/%E7%94%9F%E6%B4%BB%E9%BB%91%E5%AE%A2/"/>
+    
+    
+    <category term="任务管理" scheme="https://mcdp.link/tags/%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title>【从零开始任务管理#1】为什么你需要第二大脑</title>
