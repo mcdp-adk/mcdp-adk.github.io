@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-  <head hexo-theme='https://github.com/volantis-x/hexo-theme-volantis/tree/4.3.1'>
+<head hexo-theme='https://github.com/volantis-x/hexo-theme-volantis/tree/4.3.1'>
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
@@ -22,14 +22,14 @@
 
   <!-- 页面元数据 -->
   
-  <title>M.CDP</title>
+  <title>M.CDP&#39;s Blog</title>
   
 
   
 
   <!-- feed -->
   
-    <link rel="alternate" href="/atom.xml" title="M.CDP" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="M.CDP's Blog" type="application/atom+xml">
   
 
   <!-- import meta -->
@@ -37,7 +37,7 @@
 
   <!-- link -->
   
-    <link rel="shortcut icon" type='image/x-icon' href="https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/favicon/favicon.ico">
+    <link rel="shortcut icon" type='image/x-icon' href="https://raw.githubusercontent.com/mcdp-adk/mcdp-adk.github.io/master/M.ico">
   
 
   <!-- import link -->
@@ -103,6 +103,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 </head>
 
+
   <body>
     
 
@@ -123,9 +124,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
         <a class="title flat-box" target="_self" href='/'>
           
-            <img no-lazy class='logo' src='https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png'/>
           
           
+            M.CDP
           
         </a>
       
@@ -321,8 +322,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   </div>
 </header>
 
-    <div id="l_body">
-      <div id="l_cover">
+      <div id="l_body">
+        <div id="l_cover">
   
     
         <div id="full" class='cover-wrapper list dock' style="display: none;">
@@ -391,9 +392,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
   </div>
 
-      <div id="safearea">
-        <div class="body-wrapper" id="pjax-container">
-          
+          <div id="safearea">
+            <div class="body-wrapper" id="pjax-container">
+              
 
 
 <div class='l_main'>
@@ -613,7 +614,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Thu May 13 2021 15:06:13 GMT+0800 (中国标准时间)</div>
+            <div id="last-update" style="display: none;">Thu May 13 2021 23:43:29 GMT+0800 (中国标准时间)</div>
             <div id="last-update-show">2021-05-13 日</div>
           
         </div>
@@ -679,8 +680,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </aside>
 
 
-		  
-		  <!--此文件用来存放一些不方便取值的变量-->
+                
+                      <!--此文件用来存放一些不方便取值的变量-->
 <!--思路大概是将值藏到重加载的区域内-->
 
 <script>
@@ -704,8 +705,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
 </script>
 
-        </div>
-        
+            </div>
+            
   
   <footer class="footer clearfix">
     <br><br>
@@ -769,11 +770,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   </footer>
 
 
-        <a id="s-top" class="fas fa-arrow-up fa-fw" href="javascript:void(0)"></a>
+              <a id="s-top" class="fas fa-arrow-up fa-fw" href="javascript:void(0)"></a>
+          </div>
       </div>
-    </div>
-    <div>
-      <script>
+      <div>
+        <script>
 /************这个文件存放不需要重载的全局变量和全局函数*********/
 window.volantis={};
 window.volantis.loadcss=document.getElementById("loadcss");
@@ -1513,9 +1514,9 @@ document.addEventListener("pjax:success", listennSidebarTOC);
 
 <!-- more -->
 
- 
-	   
-	    
+
+          
+            
 
 
 <script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script>
@@ -1591,8 +1592,16 @@ document.addEventListener("pjax:success", listennSidebarTOC);
       window.location.href = e.triggerElement.href;
     });
 </script>
- 
-	  
-    </div>
+
+              
+      </div>
+
+      {% if theme.fireworks %}
+      <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"></canvas>
+      <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+      <script type="text/javascript" src="/js/fireworks.js"></script>
+      {% endif %}
+
   </body>
+
 </html>
