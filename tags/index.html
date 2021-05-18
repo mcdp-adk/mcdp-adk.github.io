@@ -848,11 +848,11 @@ var loadCSS = function( href, before, media, attributes ){
     if(!document.querySelectorAll("#gitalk-container")[0])return;
     let path = pdata.commentPath;
     if (path.length == 0) {
-      let defaultPath = 'https://mcdp.link';
+      let defaultPath = '';
       path = defaultPath || decodeURI(window.location.pathname);
     }
     if (document.getElementById('gitalk-container') != null) {
-      var gitalk = new Gitalk(Object.assign({"clientID":"72b170966a7232c6360f","clientSecret":"6cb04997dea72c0cd57bd6317b9519c52795d708","repo":"mcdp-adk.github.io","owner":"mcdp-adk","admin":["mcdp-adk"],"path":"https://mcdp.link"}, {
+      var gitalk = new Gitalk(Object.assign({"clientID":"72b170966a7232c6360f","clientSecret":"aa199cea2d1c16f1d83e85d82681ac70f3b9cf3b","repo":"mcdp-adk.github.io","owner":"mcdp-adk","admin":["mcdp-adk"],"path":null}, {
 	  id: path,
 	  distractionFreeMode: false  // Facebook-like distraction free mode
     }));

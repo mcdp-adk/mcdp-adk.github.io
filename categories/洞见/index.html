@@ -717,11 +717,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
       
-        <div class="webinfo-item">
-          <div>本站总字数：</div>
-          <div>8.1k 字</div>
-        </div>
-      
 
       
         <div class="webinfo-item">
@@ -745,8 +740,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Tue May 18 2021 23:23:39 GMT+0800 (中国标准时间)</div>
-            <div id="last-update-show">2021-05-18 日</div>
+            <div id="last-update" style="display: none;">Wed May 19 2021 00:56:56 GMT+0800 (中国标准时间)</div>
+            <div id="last-update-show">2021-05-19 日</div>
           
         </div>
         
@@ -796,7 +791,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           try {
             document.getElementById('last-update-show').innerHTML = timeago(new Date(lastUpDate));
           } catch (error) {
-            document.getElementById('last-update-show').innerHTML = '2021-05-18 日';
+            document.getElementById('last-update-show').innerHTML = '2021-05-19 日';
           }
         </script>
         
@@ -1171,11 +1166,11 @@ var loadCSS = function( href, before, media, attributes ){
     if(!document.querySelectorAll("#gitalk-container")[0])return;
     let path = pdata.commentPath;
     if (path.length == 0) {
-      let defaultPath = 'https://mcdp.link';
+      let defaultPath = '';
       path = defaultPath || decodeURI(window.location.pathname);
     }
     if (document.getElementById('gitalk-container') != null) {
-      var gitalk = new Gitalk(Object.assign({"clientID":"72b170966a7232c6360f","clientSecret":"6cb04997dea72c0cd57bd6317b9519c52795d708","repo":"mcdp-adk.github.io","owner":"mcdp-adk","admin":["mcdp-adk"],"path":"https://mcdp.link"}, {
+      var gitalk = new Gitalk(Object.assign({"clientID":"72b170966a7232c6360f","clientSecret":"aa199cea2d1c16f1d83e85d82681ac70f3b9cf3b","repo":"mcdp-adk.github.io","owner":"mcdp-adk","admin":["mcdp-adk"],"path":null}, {
 	  id: path,
 	  distractionFreeMode: false  // Facebook-like distraction free mode
     }));
