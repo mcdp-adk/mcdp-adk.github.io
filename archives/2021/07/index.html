@@ -24,7 +24,7 @@
 
   <!-- 页面元数据 -->
   
-  <title>标签：RSS - M.CDP&#39;s Blog</title>
+  <title>归档：2021/7 - M.CDP&#39;s Blog</title>
   
 
   
@@ -109,7 +109,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <body>
     
 
-<header id="l_header" class="l_header auto shadow blur show" style='opacity: 0' >
+<header id="l_header" class="l_header auto shadow blur " style='opacity: 0' >
   <div class='container'>
   <div id='wrapper'>
     <div class='nav-sub'>
@@ -328,7 +328,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div id="l_cover">
   
     
-        <div id="full" class='cover-wrapper  dock' style="display: none;">
+        <div id="half" class='cover-wrapper  dock' style="display: ;">
           
             <div class='cover-bg lazyload placeholder' data-bg="https://i.loli.net/2021/05/10/7MP1JoAYetSv9Ig.jpg"></div>
           
@@ -398,16 +398,12 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             <div class="body-wrapper" id="pjax-container">
               
 
-
 <div class='l_main'>
-  
-    
-      
+	
+		
   <section class="post-list">
     
       
-        
-          
         
           
         
@@ -467,55 +463,6 @@ Tiny Tiny RSS这是我的第一站。TTRSS 是一个可自行搭建的服务，�
           </div>
         
       
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow">
-  
-  
-  
-  
-    
-    <h2 class="article-title" >
-      <a href="/posts/5061d987.html">
-        入坑RSS一周，我卸载了10+APP
-      </a>
-    </h2>
-  
-  <div class='md'>
-    
-      <h2 id="先说点实在的，RSS到底有什么用"><a href="#先说点实在的，RSS到底有什么用" class="headerlink" title="先说点实在的，RSS到底有什么用"></a>先说点实在的，RSS到底有什么用</h2><p>RSS到底是什么？这个放到后面再聊。</p>
-<p>我最想和你说的是，RSS作为一种「信息聚合」的协议，它能将毫无作用的推荐算法拒之门外，专注于你想要关注的内容，从而提高的你效率，优化你的阅读体验。</p>
-<p><strong>更重要的是，RSS于我而言，它甚至改变了我的习惯</strong></p>
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-          
-          <a class='avatar' href='/'><img src='https://i.loli.net/2021/05/31/2l4x9nCsSfiFrQ3.jpg'></a>
-        
-        <time>2021-03-06</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E7%94%9F%E6%B4%BB%E9%BB%91%E5%AE%A2/">生活黑客</a>
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/posts/5061d987.html'>
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-  
-
-</div>
-
-          </div>
-        
-      
     
   </section>
   
@@ -523,8 +470,7 @@ Tiny Tiny RSS这是我的第一站。TTRSS 是一个可自行搭建的服务，�
   
 
 
-    
-  
+	
 </div>
 <aside class='l_side'>
   
@@ -793,14 +739,14 @@ Tiny Tiny RSS这是我的第一站。TTRSS 是一个可自行搭建的服务，�
   // header 这里无论是否开启pjax都需要
   var l_header=document.getElementById("l_header");
   
-  l_header.classList.add("show");
+  l_header.classList.remove("show");
   
   
     // cover
     var cover_wrapper=document.querySelector('.cover-wrapper');
     
-    cover_wrapper.id="none";
-    cover_wrapper.style.display="none";
+    cover_wrapper.id="half";
+    cover_wrapper.style.display="";
     
   
 </script>
