@@ -658,8 +658,8 @@ Tiny Tiny RSS这是我的第一站。TTRSS 是一个可自行搭建的服务，�
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Mon Feb 21 2022 10:05:50 GMT+0800 (香港标准时间)</div>
-            <div id="last-update-show">2022-02-21 日</div>
+            <div id="last-update" style="display: none;">Mon Mar 07 2022 23:47:00 GMT+0800 (香港标准时间)</div>
+            <div id="last-update-show">2022-03-07 日</div>
           
         </div>
         
@@ -709,7 +709,7 @@ Tiny Tiny RSS这是我的第一站。TTRSS 是一个可自行搭建的服务，�
           try {
             document.getElementById('last-update-show').innerHTML = timeago(new Date(lastUpDate));
           } catch (error) {
-            document.getElementById('last-update-show').innerHTML = '2022-02-21 日';
+            document.getElementById('last-update-show').innerHTML = '2022-03-07 日';
           }
         </script>
         
@@ -1239,7 +1239,7 @@ function setSearchService() {
       // 请求 PV 并自增
       var pvCtn = document.querySelector('#lc-sv');
       if (pvCtn || enableIncr) {
-        var pvGetter = this.getRecord(Counter, 'https://mcdp.link' + '/#lc-sv', 'Visits').then((record) => {
+        var pvGetter = this.getRecord(Counter, 'https://blog.mcdp.site' + '/#lc-sv', 'Visits').then((record) => {
           incrArr.push(this.buildIncrement(record.objectId))
           var eles = document.querySelectorAll('#lc-sv #number');
           if (eles.length > 0) {
@@ -1257,7 +1257,7 @@ function setSearchService() {
       // 请求 UV 并自增
       var uvCtn = document.querySelector('#lc-uv');
       if (uvCtn || enableIncr) {
-        var uvGetter = this.getRecord(Counter, 'https://mcdp.link' + '/#lc-uv', 'Visitors').then((record) => {
+        var uvGetter = this.getRecord(Counter, 'https://blog.mcdp.site' + '/#lc-uv', 'Visitors').then((record) => {
           var vuv = this.validUV();
           vuv && incrArr.push(this.buildIncrement(record.objectId))
           var eles = document.querySelectorAll('#lc-uv #number');
@@ -1279,7 +1279,7 @@ function setSearchService() {
         for (i = 0; i < allPV.length; i++) {
           let pv = allPV[i];
           let title = pv.getAttribute('data-title');
-          var url = 'https://mcdp.link' + pv.getAttribute('data-path');
+          var url = 'https://blog.mcdp.site' + pv.getAttribute('data-path');
           if (url) {
             var viewGetter = this.getRecord(Counter, url, title).then((record) => {
               // 是当前页面就自增
